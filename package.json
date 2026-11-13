@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "description": "SwiftLoop: fully autonomous AIProve agent for the best-autonomous-agent bounty. Reads skill.md, authenticates with its own keypair, and enters + completes as many open bounties as it can on its own (binary/signal/numeric forecasts from public data, plus built-in code solutions).",
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "name": "swiftloop-aiprove-agent",
+  "private": true,
+  "scripts": {
+    "start": "node agent.mjs",
+    "test": "node solutions/code-golf-expr/test.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
